@@ -11,3 +11,5 @@ I thought it would still be useful to clean up my list before I exported my subs
 If you happen to also care at all, here it is. Do whatever with it. Send PR's if you think you made it better, keep it for yourself if you want, that's fine too.
 
 Enjoy!
+
+Oh it's also a nifty example of how to exhaustively consume a paged API (rather than paging in data as needed), I had about 30k items to fetch, but Feedwrangler's API only fetches 100 at a time, so it accumulates the results and does work once the API is exhausted.
